@@ -65,18 +65,34 @@
     <Compile Include="Assets\Scripts\Controller\BaseController.cs" />
     <Compile Include="Assets\Scripts\Controller\FlashlightController.cs" />
     <Compile Include="Assets\Scripts\Controller\InputController.cs" />
+    <Compile Include="Assets\Scripts\Controller\WeaponController.cs" />
+    <Compile Include="Assets\Scripts\Enum\AmmunitionType.cs" />
+    <Compile Include="Assets\Scripts\Enum\BatteryChargeDirection.cs" />
+    <Compile Include="Assets\Scripts\Enum\MouseButton.cs" />
+    <Compile Include="Assets\Scripts\Extention\Vector3Extension.cs" />
+    <Compile Include="Assets\Scripts\Helper\ObjectManager.cs" />
+    <Compile Include="Assets\Scripts\Helper\ScrollWheel.cs" />
+    <Compile Include="Assets\Scripts\Helper\ScrollWhellEventArgs.cs" />
+    <Compile Include="Assets\Scripts\Helper\Timer.cs" />
     <Compile Include="Assets\Scripts\Interface\ISetDamage.cs" />
+    <Compile Include="Assets\Scripts\Interface\IStart.cs" />
     <Compile Include="Assets\Scripts\Interface\IUpdate.cs" />
     <Compile Include="Assets\Scripts\Main.cs" />
     <Compile Include="Assets\Scripts\Model\AmmunitionModel.cs" />
     <Compile Include="Assets\Scripts\Model\BaseObject.cs" />
-    <Compile Include="Assets\Scripts\Model\BatteryChargeDirection.cs" />
     <Compile Include="Assets\Scripts\Model\BulletModel.cs" />
-    <Compile Include="Assets\Scripts\Model\EmenyModel.cs" />
+    <Compile Include="Assets\Scripts\Model\BulletTwo.cs" />
+    <Compile Include="Assets\Scripts\Model\EnemyModel.cs" />
+    <Compile Include="Assets\Scripts\Model\EnemyPhysic.cs" />
+    <Compile Include="Assets\Scripts\Model\EnemyScale.cs" />
     <Compile Include="Assets\Scripts\Model\FlashlightModel.cs" />
     <Compile Include="Assets\Scripts\Model\GunModel.cs" />
+    <Compile Include="Assets\Scripts\Model\HolderModel.cs" />
+    <Compile Include="Assets\Scripts\Model\PistolModel.cs" />
     <Compile Include="Assets\Scripts\Model\WeaponModel.cs" />
+    <Compile Include="Assets\Scripts\View\AmmoUI.cs" />
     <Compile Include="Assets\Scripts\View\FlashlightUI.cs" />
+    <Compile Include="Assets\Scripts\View\UI.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Projects/Unity_2/OOP/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
